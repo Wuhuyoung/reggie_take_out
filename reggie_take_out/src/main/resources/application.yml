@@ -7,6 +7,18 @@ spring:
       url: jdbc:mysql://localhost:3306/reggie?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
       username: root
       password: 491001
+  # redis缓存
+  redis:
+    host: 192.168.5.100
+    port: 6379
+    password: 491001
+    database: 0
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 100ms
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
@@ -18,3 +30,4 @@ mybatis-plus:
 # 文件上传位置
 file:
   upload-path: D:\img\
+
