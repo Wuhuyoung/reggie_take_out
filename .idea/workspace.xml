@@ -13,26 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="加入redis，缓存验证码和菜品">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_82_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_23.xml" afterDir="false" />
+    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="配置redis环境">
+      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/config/RedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +82,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\java\com\example\reggie\entity" />
@@ -106,7 +94,7 @@
       <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\resources\static\backend\page\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HelloWorldApplication">
+  <component name="RunManager" selected="Spring Boot.ReggieTakeOutApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -192,7 +180,7 @@
       <workItem from="1667303369412" duration="4453000" />
       <workItem from="1667384230321" duration="843000" />
       <workItem from="1667441399975" duration="33000" />
-      <workItem from="1667991489836" duration="1960000" />
+      <workItem from="1667991489836" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="init HelloWorld">
       <created>1667305719581</created>
@@ -222,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667992589014</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="配置redis环境">
+      <created>1667993508970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667993508970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +239,8 @@
     <MESSAGE value="init HelloWorld" />
     <MESSAGE value="edit HelloWorld" />
     <MESSAGE value="加入redis，缓存验证码和菜品" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入redis，缓存验证码和菜品" />
+    <MESSAGE value="配置redis环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置redis环境" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1664267840814">
@@ -267,62 +263,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="350" y="143" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1664370902318" />
-    <state width="984" height="438" key="DebuggerActiveHint" timestamp="1666513408275">
+    <state width="984" height="438" key="DebuggerActiveHint" timestamp="1667997944221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="984" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1666513408275" />
+    <state width="984" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1667997944221" />
     <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1667992087825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1667992087825" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1667310983113">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1667999123309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1667310983113">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1667999123309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1667310983113">
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1667999123309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1667310983113">
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1667999123309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
-    <state width="1237" height="190" key="GridCell.Tab.1.bottom" timestamp="1667305756460">
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
+    <state width="1237" height="156" key="GridCell.Tab.1.bottom" timestamp="1667999123310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
-    <state width="1237" height="190" key="GridCell.Tab.1.center" timestamp="1667305756460">
+    <state width="1237" height="156" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
+    <state width="1237" height="156" key="GridCell.Tab.1.center" timestamp="1667999123310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
-    <state width="1237" height="190" key="GridCell.Tab.1.left" timestamp="1667305756460">
+    <state width="1237" height="156" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
+    <state width="1237" height="156" key="GridCell.Tab.1.left" timestamp="1667999123310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
-    <state width="1237" height="190" key="GridCell.Tab.1.right" timestamp="1667305756460">
+    <state width="1237" height="156" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
+    <state width="1237" height="156" key="GridCell.Tab.1.right" timestamp="1667999123310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
-    <state width="1237" height="215" key="GridCell.Tab.2.bottom" timestamp="1666538582170">
+    <state width="1237" height="156" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
+    <state width="1237" height="214" key="GridCell.Tab.2.bottom" timestamp="1667997997378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
-    <state width="1237" height="215" key="GridCell.Tab.2.center" timestamp="1666538582170">
+    <state width="1237" height="214" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
+    <state width="1237" height="214" key="GridCell.Tab.2.center" timestamp="1667997997378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
-    <state width="1237" height="215" key="GridCell.Tab.2.left" timestamp="1666538582170">
+    <state width="1237" height="214" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
+    <state width="1237" height="214" key="GridCell.Tab.2.left" timestamp="1667997997378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
-    <state width="1237" height="215" key="GridCell.Tab.2.right" timestamp="1666538582170">
+    <state width="1237" height="214" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
+    <state width="1237" height="214" key="GridCell.Tab.2.right" timestamp="1667997997378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="215" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
+    <state width="1237" height="214" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
     <state x="221" y="180" key="MavenRunHelper.GoalEditor" timestamp="1664458398593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -339,10 +335,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1664279033652" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667993464634">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667993512509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667993464634" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667993512509" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1664457303002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

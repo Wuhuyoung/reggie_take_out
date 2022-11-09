@@ -3,11 +3,11 @@ package com.example.reggie.controller;
 import com.example.reggie.common.Result;
 import com.example.reggie.entity.User;
 import com.example.reggie.service.UserService;
-import com.example.reggie.utils.SMSUtils;
 import com.example.reggie.utils.ValidateCodeUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @RequestMapping("/user")
@@ -23,6 +24,9 @@ import java.util.Map;
 public class UserController {
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
 
     /**
      * 发送手机验证码
@@ -44,9 +48,12 @@ public class UserController {
             //SMSUtils.sendMessage("瑞吉外卖", "", phone, code);
 
             //将验证码存入session中，方便后期登录时使用
-            HttpSession session = request.getSession();
-            session.setAttribute(phone, code);
+            //HttpSession session = request.getSession();
+            //session.setAttribute(phone, code);
             log.info("手机验证码:" + code);
+
+            //将手机验证码存入redis缓存中，并设置有效期为5分钟
+            stringRedisTemplate.opsForValue().set(phone, code, 5, TimeUnit.MINUTES);
 
             return Result.success("手机验证码发送成功");
         }
@@ -68,7 +75,10 @@ public class UserController {
         String code = map.get("code").toString();
 
         //获取session中的验证码
-        Object codeCorrect = request.getSession().getAttribute(phone);
+        //Object codeCorrect = request.getSession().getAttribute(phone);
+
+        //redis从缓存中获取验证码
+        String codeCorrect = stringRedisTemplate.opsForValue().get(phone);
 
         //进行验证码的比对
         if(codeCorrect == null) {
@@ -88,6 +98,10 @@ public class UserController {
         }
         //存入session中，后续登录校验器会用到
         request.getSession().setAttribute("user", user.getId());
+
+        //登录成功，删除验证码
+        stringRedisTemplate.delete(phone);
+
         return Result.success(user);
     }
 }
