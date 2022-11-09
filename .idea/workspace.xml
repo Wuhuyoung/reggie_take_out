@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="edit HelloWorld" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../3 Linux课程/HelloWorld" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\program\software\apache-maven-3.6.3\mvn_resp" />
+        <option name="mavenHome" value="D:\program\software\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\program\software\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2FKhyw4Us4QDaVcUC3mr6JRQVSW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\java\com\example\reggie\entity" />
+      <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\java\com\example\reggie\controller" />
+      <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\java\com\example\reggie\utils" />
+      <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\java\com\example\reggie\dto" />
+      <recent name="D:\program\project\瑞吉外卖\reggie\reggie_take_out\src\main\resources\static\backend\page\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HelloWorldApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="HelloWorld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.HelloWorldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lovefinder-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yupi.lovefinder.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieTakeOutApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reggie_take_out" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ReggieTakeOutApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="" />
+      <created>1664246942216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664246942216</updated>
+      <workItem from="1664246943369" duration="2272000" />
+      <workItem from="1664261664473" duration="2208000" />
+      <workItem from="1664264816298" duration="11450000" />
+      <workItem from="1664351038753" duration="574000" />
+      <workItem from="1664351635896" duration="2485000" />
+      <workItem from="1664358404946" duration="3410000" />
+      <workItem from="1664365658802" duration="6256000" />
+      <workItem from="1664448986724" duration="10693000" />
+      <workItem from="1664502268107" duration="638000" />
+      <workItem from="1664522372531" duration="4320000" />
+      <workItem from="1664700419181" duration="4677000" />
+      <workItem from="1664709320226" duration="522000" />
+      <workItem from="1665141194899" duration="4123000" />
+      <workItem from="1665192066986" duration="1578000" />
+      <workItem from="1665216651700" duration="742000" />
+      <workItem from="1665228773572" duration="6673000" />
+      <workItem from="1665315680268" duration="1073000" />
+      <workItem from="1665322410394" duration="3494000" />
+      <workItem from="1665389472107" duration="236000" />
+      <workItem from="1665389856478" duration="12000" />
+      <workItem from="1665390233049" duration="1626000" />
+      <workItem from="1665450096124" duration="652000" />
+      <workItem from="1665458837036" duration="598000" />
+      <workItem from="1665485661382" duration="5420000" />
+      <workItem from="1665839051480" duration="770000" />
+      <workItem from="1665843845150" duration="1893000" />
+      <workItem from="1665994745665" duration="12000" />
+      <workItem from="1665997655130" duration="1691000" />
+      <workItem from="1666008884402" duration="3452000" />
+      <workItem from="1666014061780" duration="92000" />
+      <workItem from="1666014650696" duration="9000" />
+      <workItem from="1666015051972" duration="16000" />
+      <workItem from="1666015098066" duration="87000" />
+      <workItem from="1666015237530" duration="15000" />
+      <workItem from="1666016316441" duration="13000" />
+      <workItem from="1666274655978" duration="6100000" />
+      <workItem from="1666362914950" duration="4526000" />
+      <workItem from="1666425845514" duration="18041000" />
+      <workItem from="1666511813618" duration="2442000" />
+      <workItem from="1666617130608" duration="246000" />
+      <workItem from="1667302924174" duration="400000" />
+      <workItem from="1667303369412" duration="4453000" />
+      <workItem from="1667384230321" duration="843000" />
+      <workItem from="1667441399975" duration="33000" />
+      <workItem from="1667991489836" duration="539000" />
+    </task>
+    <task id="LOCAL-00001" summary="init HelloWorld">
+      <created>1667305719581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667305719581</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit HelloWorld">
+      <created>1667384466377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667384466377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init HelloWorld" />
+    <MESSAGE value="edit HelloWorld" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit HelloWorld" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1664267840814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1664267840814" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1664246986495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1664246986495" />
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665148630349">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1665148630349" />
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1666455942058">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1666455942058" />
+    <state x="350" y="143" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1664370902318">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="143" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1280.680@0.0.1280.680" timestamp="1664370902318" />
+    <state width="984" height="438" key="DebuggerActiveHint" timestamp="1666513408275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="984" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1666513408275" />
+    <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1667305591834">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1667305591834" />
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1667310983113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
+    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1667310983113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
+    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1667310983113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
+    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1667310983113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1667310983113" />
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom" timestamp="1667305756460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
+    <state width="1237" height="190" key="GridCell.Tab.1.center" timestamp="1667305756460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
+    <state width="1237" height="190" key="GridCell.Tab.1.left" timestamp="1667305756460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
+    <state width="1237" height="190" key="GridCell.Tab.1.right" timestamp="1667305756460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="190" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1667305756460" />
+    <state width="1237" height="215" key="GridCell.Tab.2.bottom" timestamp="1666538582170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="215" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
+    <state width="1237" height="215" key="GridCell.Tab.2.center" timestamp="1666538582170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="215" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
+    <state width="1237" height="215" key="GridCell.Tab.2.left" timestamp="1666538582170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="215" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
+    <state width="1237" height="215" key="GridCell.Tab.2.right" timestamp="1666538582170">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="215" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1666538582170" />
+    <state x="221" y="180" key="MavenRunHelper.GoalEditor" timestamp="1664458398593">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="180" key="MavenRunHelper.GoalEditor/0.0.1280.680@0.0.1280.680" timestamp="1664458398593" />
+    <state x="287" y="44" key="NewModule_or_Project.wizard" timestamp="1667303383230">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="287" y="44" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1667303383230" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1667307563874">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1667307563874" />
+    <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1664279033652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1664279033652" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667384468180">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667384468180" />
+    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1664457303002">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1664457303002" />
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1667305685676">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1667305685676" />
+    <state x="28" y="24" key="new project wizard" timestamp="1665389865855">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="24" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1665389865855" />
+    <state x="417" y="97" key="refactoring.ChangeSignatureDialog" timestamp="1666440394415">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="417" y="97" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1666440394415" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1666365672991">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1666365672991" />
+  </component>
+</project>
