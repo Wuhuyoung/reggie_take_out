@@ -13,7 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="edit HelloWorld" />
+    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="加入redis，缓存验证码和菜品" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../3 Linux课程/HelloWorld" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -166,7 +166,7 @@
       <workItem from="1667303369412" duration="4453000" />
       <workItem from="1667384230321" duration="843000" />
       <workItem from="1667441399975" duration="33000" />
-      <workItem from="1667991489836" duration="539000" />
+      <workItem from="1667991489836" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="init HelloWorld">
       <created>1667305719581</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667384466377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入redis，缓存验证码和菜品">
+      <created>1667992314254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667992314254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init HelloWorld" />
     <MESSAGE value="edit HelloWorld" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit HelloWorld" />
+    <MESSAGE value="加入redis，缓存验证码和菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入redis，缓存验证码和菜品" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1664267840814">
@@ -230,10 +238,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="984" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1666513408275" />
-    <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1667305591834">
+    <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1667992087825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1667305591834" />
+    <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1667992087825" />
     <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1667310983113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -298,10 +306,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1664279033652" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667384468180">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667992353084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667384468180" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667992353084" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1664457303002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
