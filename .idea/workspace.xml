@@ -14,14 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="利用redis缓存手机验证码和菜品数据">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/ReggieTakeOutApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/ReggieTakeOutApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/SetMealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/SetMealServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/common/Result.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v1.0" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -254,7 +247,8 @@
     <MESSAGE value="edit HelloWorld" />
     <MESSAGE value="加入redis，缓存验证码和菜品" />
     <MESSAGE value="配置redis环境" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置redis环境" />
+    <MESSAGE value="使用spring cache来缓存套餐数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用spring cache来缓存套餐数据" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1664267840814">
@@ -349,10 +343,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1664279033652" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667999511141">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1668070227192">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667999511141" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1668070227192" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1664457303002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
