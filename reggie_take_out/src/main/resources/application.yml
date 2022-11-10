@@ -13,12 +13,12 @@ spring:
     port: 6379
     password: 491001
     database: 0
-    lettuce:
-      pool:
-        max-active: 8
-        max-idle: 8
-        min-idle: 0
-        max-wait: 100ms
+  cache:
+    redis:
+      time-to-live: 1800000 #设置缓存数据的过期时间
+
+
+
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

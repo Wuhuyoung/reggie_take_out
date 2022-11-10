@@ -14,6 +14,8 @@ import com.example.reggie.service.SetMealService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -43,7 +45,13 @@ public class SetMealServiceImpl implements SetMealService {
         return num;
     }
 
+    /**
+     * 新增套餐
+     * @param setmeal
+     * @return
+     */
     @Override
+    @CacheEvict(value = "setmealCache", key = "#setmeal.categoryId + ':' + #setmeal.status")
     public boolean saveSetmeal(Setmeal setmeal) {
         setMealMapper.insert(setmeal);
         return true;
@@ -97,6 +105,7 @@ public class SetMealServiceImpl implements SetMealService {
      */
     @Override
     @Transactional
+    @CacheEvict(value = "setmealCache", allEntries = true)
     public void deleteWithDish(List<Long> ids) {
         //查询是否有处于启售状态的套餐
         //select count(*) from setmeal where id in (...) and status = 1;
@@ -126,6 +135,7 @@ public class SetMealServiceImpl implements SetMealService {
      * @return
      */
     @Override
+    @Cacheable(value = "setmealCache", key = "#setmeal.categoryId + ':' + #setmeal.status")
     public List<Setmeal> list(Setmeal setmeal) {
         LambdaQueryWrapper<Setmeal> lqw = new LambdaQueryWrapper<>();
         lqw.eq(setmeal.getCategoryId() != null, Setmeal::getCategoryId, setmeal.getCategoryId());

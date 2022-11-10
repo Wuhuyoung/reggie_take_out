@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cache_demo" target="1.8" />
       <module name="HelloWorld" target="1.8" />
       <module name="lovefinder-backend" target="1.8" />
       <module name="reggie_take_out" target="1.8" />
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HelloWorld" options="-parameters" />
+      <module name="cache_demo" options="-parameters" />
       <module name="lovefinder-backend" options="-parameters" />
       <module name="reggie_take_out" options="-parameters" />
     </option>

@@ -13,11 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="配置redis环境">
-      <change afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/config/RedisConfig.java" afterDir="false" />
+    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="利用redis缓存手机验证码和菜品数据">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_7_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/ReggieTakeOutApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/ReggieTakeOutApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/SetMealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/service/impl/SetMealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v1.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5 瑞吉外卖项目优化篇/代码/day01/cache_demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -102,6 +106,13 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cache_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.CacheDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +192,9 @@
       <workItem from="1667384230321" duration="843000" />
       <workItem from="1667441399975" duration="33000" />
       <workItem from="1667991489836" duration="6611000" />
+      <workItem from="1668004739998" duration="378000" />
+      <workItem from="1668006377084" duration="17000" />
+      <workItem from="1668068656440" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="init HelloWorld">
       <created>1667305719581</created>
@@ -267,90 +281,90 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="984" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1667997944221" />
-    <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1667992087825">
+    <state x="315" y="95" key="FileChooserDialogImpl" timestamp="1668000184956">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1667992087825" />
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1667999123309">
+    <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1668000184956" />
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
-    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1667999123309">
+    <state width="1237" height="214" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.0.center" timestamp="1668069508840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
-    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1667999123309">
+    <state width="1237" height="214" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1668069508840" />
+    <state width="1237" height="214" key="GridCell.Tab.0.left" timestamp="1668069508840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
-    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1667999123309">
+    <state width="1237" height="214" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1668069508840" />
+    <state width="1237" height="214" key="GridCell.Tab.0.right" timestamp="1668069508840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1667999123309" />
-    <state width="1237" height="156" key="GridCell.Tab.1.bottom" timestamp="1667999123310">
+    <state width="1237" height="214" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1668069508840" />
+    <state width="1237" height="214" key="GridCell.Tab.1.bottom" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
-    <state width="1237" height="156" key="GridCell.Tab.1.center" timestamp="1667999123310">
+    <state width="1237" height="214" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.1.center" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
-    <state width="1237" height="156" key="GridCell.Tab.1.left" timestamp="1667999123310">
+    <state width="1237" height="214" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.1.left" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
-    <state width="1237" height="156" key="GridCell.Tab.1.right" timestamp="1667999123310">
+    <state width="1237" height="214" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.1.right" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1667999123310" />
-    <state width="1237" height="214" key="GridCell.Tab.2.bottom" timestamp="1667997997378">
+    <state width="1237" height="214" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.2.bottom" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
-    <state width="1237" height="214" key="GridCell.Tab.2.center" timestamp="1667997997378">
+    <state width="1237" height="214" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.2.center" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
-    <state width="1237" height="214" key="GridCell.Tab.2.left" timestamp="1667997997378">
+    <state width="1237" height="214" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.2.left" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
-    <state width="1237" height="214" key="GridCell.Tab.2.right" timestamp="1667997997378">
+    <state width="1237" height="214" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
+    <state width="1237" height="214" key="GridCell.Tab.2.right" timestamp="1668069508841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1667997997378" />
+    <state width="1237" height="214" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1668069508841" />
     <state x="221" y="180" key="MavenRunHelper.GoalEditor" timestamp="1664458398593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="180" key="MavenRunHelper.GoalEditor/0.0.1280.680@0.0.1280.680" timestamp="1664458398593" />
-    <state x="287" y="44" key="NewModule_or_Project.wizard" timestamp="1667303383230">
+    <state x="287" y="44" key="NewModule_or_Project.wizard" timestamp="1668000066937">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="287" y="44" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1667303383230" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1667992840780">
+    <state x="287" y="44" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1668000066937" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1668000069969">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1667992840780" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1668000069969" />
     <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1664279033652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="362" y="82" width="540" height="524" key="StructurePopup/0.0.1280.680@0.0.1280.680" timestamp="1664279033652" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667993512509">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1667999511141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667993512509" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1667999511141" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1664457303002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1664457303002" />
-    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1667305685676">
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1667999498650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1667305685676" />
-    <state x="28" y="24" key="new project wizard" timestamp="1665389865855">
+    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1667999498650" />
+    <state x="28" y="2" key="new project wizard" timestamp="1668000210398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="24" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1665389865855" />
+    <state x="28" y="2" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1668000210398" />
     <state x="417" y="97" key="refactoring.ChangeSignatureDialog" timestamp="1666440394415">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
