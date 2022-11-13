@@ -13,7 +13,44 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="使用sharding-JDBC实现程序的读写分离" />
+    <list default="true" id="86e78357-0f43-4875-8566-e928ec03292f" name="Default Changelist" comment="使用sharding-JDBC实现程序的读写分离">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_annotations_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_autoconfigure_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_starter_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_ui_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/reggie_take_out/src/main/java/com/example/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +127,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ReggieTakeOutApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CacheDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cache_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.CacheDemoApplication" />
@@ -177,6 +225,9 @@
       <workItem from="1668068656440" duration="947000" />
       <workItem from="1668082863492" duration="27000" />
       <workItem from="1668087416358" duration="335000" />
+      <workItem from="1668164300180" duration="1595000" />
+      <workItem from="1668258683834" duration="18000" />
+      <workItem from="1668330558924" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="init HelloWorld">
       <created>1667305719581</created>
@@ -227,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668070280146</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="使用sharding-JDBC实现程序的读写分离">
+      <created>1668164363187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668164363187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +309,8 @@
     <MESSAGE value="加入redis，缓存验证码和菜品" />
     <MESSAGE value="配置redis环境" />
     <MESSAGE value="使用spring cache来缓存套餐数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用spring cache来缓存套餐数据" />
+    <MESSAGE value="使用sharding-JDBC实现程序的读写分离" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用sharding-JDBC实现程序的读写分离" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1664267840814">
@@ -282,38 +341,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1668000184956" />
-    <state width="1237" height="280" key="GridCell.Tab.0.bottom" timestamp="1668088253056">
+    <state width="1237" height="228" key="GridCell.Tab.0.bottom" timestamp="1668165912439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="280" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668088253056" />
-    <state width="1237" height="280" key="GridCell.Tab.0.center" timestamp="1668088253056">
+    <state width="1237" height="228" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668165912439" />
+    <state width="1237" height="228" key="GridCell.Tab.0.center" timestamp="1668165912439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="280" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1668088253056" />
-    <state width="1237" height="280" key="GridCell.Tab.0.left" timestamp="1668088253056">
+    <state width="1237" height="228" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1668165912439" />
+    <state width="1237" height="228" key="GridCell.Tab.0.left" timestamp="1668165912439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="280" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1668088253056" />
-    <state width="1237" height="280" key="GridCell.Tab.0.right" timestamp="1668088253056">
+    <state width="1237" height="228" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1668165912439" />
+    <state width="1237" height="228" key="GridCell.Tab.0.right" timestamp="1668165912439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="280" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1668088253056" />
-    <state width="1237" height="214" key="GridCell.Tab.1.bottom" timestamp="1668070307782">
+    <state width="1237" height="228" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1668165912439" />
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom" timestamp="1668165912440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668070307782" />
-    <state width="1237" height="214" key="GridCell.Tab.1.center" timestamp="1668070307782">
+    <state width="1237" height="228" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1668165912440" />
+    <state width="1237" height="228" key="GridCell.Tab.1.center" timestamp="1668165912440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1668070307782" />
-    <state width="1237" height="214" key="GridCell.Tab.1.left" timestamp="1668070307782">
+    <state width="1237" height="228" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1668165912440" />
+    <state width="1237" height="228" key="GridCell.Tab.1.left" timestamp="1668165912439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1668070307782" />
-    <state width="1237" height="214" key="GridCell.Tab.1.right" timestamp="1668070307782">
+    <state width="1237" height="228" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1668165912439" />
+    <state width="1237" height="228" key="GridCell.Tab.1.right" timestamp="1668165912440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1668070307782" />
+    <state width="1237" height="228" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1668165912440" />
     <state width="1237" height="214" key="GridCell.Tab.2.bottom" timestamp="1668070307782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -338,10 +397,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="287" y="44" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1668000066937" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1668000069969">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1668165222007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1668000069969" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1668165222007" />
     <state x="362" y="82" width="540" height="524" key="StructurePopup" timestamp="1664279033652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
